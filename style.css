@@ -58,7 +58,7 @@ li{
 
 li a{
     text-decoration: none;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
     font-size: 20px;
     padding-left: 10px;
     padding-right: 10px;
@@ -66,8 +66,9 @@ li a{
     color: black;
     font-family: Roboto;
     font-weight: bold;
+    border-bottom: 3px solid white;
 }
 
 li a:hover{
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid blueviolet;
 }
