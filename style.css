@@ -136,6 +136,17 @@ p{
 }
 
 button{
+    
+}
+button:hover{
+    background: #AA00FF;
+    color: #FFFFFF;
+}
+
+.button{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px 5px 10px;
     font-family: 'Poppins', sans-serif ;
     font-weight: 600;
     font-size: 20px;
@@ -144,18 +155,9 @@ button{
     border-radius: 8px;
     transition: ease-in-out, 0.2s;
 }
-button:hover{
-    background: #AA00FF;
-    color: #FFFFFF;
-}
-
-button a{
-    text-decoration: none;
-    color: black;
-}
-button a:hover{
-    text-decoration: none;
+.button:hover{
     color: white;
+    background: #AA00FF;
 }
 
 .action {
