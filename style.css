@@ -135,14 +135,6 @@ p{
     font-size: 17px;
 }
 
-button{
-    
-}
-button:hover{
-    background: #AA00FF;
-    color: #FFFFFF;
-}
-
 .button{
     text-decoration: none;
     color: black;
