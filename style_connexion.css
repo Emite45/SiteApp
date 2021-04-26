@@ -1,0 +1,202 @@
+/* Ajout de nouvelles polices 
+*/
+@font-face {
+	font-family: 'Leixo';
+    src: url(/Fonts/LEIXO-DEMO.ttf);
+    }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body{
+    margin: 0px;
+    background-color: #E1E1E1;
+}
+
+body {
+	margin: 0px;
+	background-color: #E1E1E1;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 10px 7px 10px;
+    background-color: white;
+    box-shadow: 0px 8px 15px rgba(25, 25, 25, 0.25)
+}
+
+#imageLogo{
+    display: inline-block;
+}
+
+h1{
+    margin:0px 0px 0px 5px;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Leixo;
+    font-size: 24px;
+    color: #AA00FF;
+    font-weight: normal;
+}
+
+#navigation{
+    float: right;
+    padding-right: 100px;
+}
+
+ul{
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+
+}
+
+#logo{
+    height: 30px;
+    vertical-align: middle;
+}
+li{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+li a{
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+    color: black;
+    font-family: Roboto;
+    font-weight: bold;
+    border-bottom: 3px solid white;
+}
+
+li a:hover{
+    border-bottom: 3px solid #AA00FF;
+}
+
+
+
+
+/*FORMS*/
+
+form {
+	padding: 10px;
+	margin-top: 100px;
+	position: fixed;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: rgb(255,255,255);
+	border-radius: 10px;
+}
+/*Pour mettre le formulaire d'inscription plus à droite que celui de connexion*/
+#form_inscription {
+	margin-left: 400px;
+    padding: 25px 100px 25px 100px;
+}
+form h2, #infos_inscription, #connexion, #inscrivez_vous, #premiere_visite {
+	text-align: center;
+}
+
+/*Change la couleur des cases (en gris) et bordures*/
+#connexion input, #infos_inscription input {
+	background-color: #808080;
+	border-radius: 4px;
+}
+/*Change la couleur du texte inscrit dans les cases (en gris clair)*/
+::placeholder {
+	color: #a6a6a6;
+}
+/*Change la couleur des cases (en blanc) quand on les survole ou qu'on clique dessus*/
+#connexion input:hover, #infos_inscription input:hover, #connexion input:focus, #infos_inscription input:focus {
+	background-color: white;
+}
+
+/*Pour mieux aligner les cgu*/
+#cgu {
+	width: 50%;
+	margin-left: 210px;
+	word-wrap: break-word;
+	padding-left: 20px;
+}
+/*Pour changer les effets des liens inclus dans les cgu*/
+.liens {
+	color: black;
+}
+.liens:hover {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 0.95em;
+}
+
+
+#bouton_inscription, #bouton_connexion {
+	text-align: right;
+}
+/*Change la couleur des boutons*/
+#bouton_inscription input, #bouton_connexion input {
+	background-color: #AA00FF;
+	border-radius: 5px;
+}
+#inscrivez_vous input {
+	background-color: white;
+	border-radius: 5px;
+}
+/*Inverse les couleurs des boutons quand on les survole*/
+#bouton_inscription input:hover, #bouton_connexion input:hover {
+	background-color: white;
+	border-radius: 5px;
+}
+#inscrivez_vous input:hover {
+	background-color: #AA00FF;
+	border-radius: 5px;
+}
+/*Change la couleur du texte des boutons*/
+#bouton_inscription input:valid, #bouton_connexion input:valid {
+	color: white;
+}
+#inscrivez_vous input:valid {
+	font-weight: bold;
+	color: #AA00FF;
+}
+/*Inverse les couleurs des boutons quand on les survole*/
+#bouton_inscription input:valid:hover, #bouton_connexion input:valid:hover {
+	color: #AA00FF;
+}
+#inscrivez_vous input:valid:hover {
+	font-weight: bold;
+	color: white;
+}
+
+h3{
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px 0px 0px 0px ;
+    font-weight: 600;
+}
+
+
+
+
+/* FOOTER */
+
+footer{
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 7px 10px 7px 10px;
+    background-color: white;
+    box-shadow: 0px -8px 15px rgba(25, 25, 25, 0.25)
+}
+
+footer li a{
+    font-size: 15px;
+}
