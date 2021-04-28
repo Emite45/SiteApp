@@ -11,11 +11,6 @@ body{
     background-color: #E1E1E1;
 }
 
-body {
-	margin: 0px;
-	background-color: #E1E1E1;
-}
-
 header{
     position: fixed;
     top: 0;
@@ -80,34 +75,37 @@ li a:hover{
     border-bottom: 3px solid #AA00FF;
 }
 
-
+.content {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
 
 
 /*FORMS*/
 
 form {
 	padding: 10px;
-	margin-top: 100px;
+	margin-top: 50px;
 	margin-left: 15px;
 	margin-right: 15px;
 	background-color: rgb(255,255,255);
 	border-radius: 10px;
 }
 /*Pour mettre le formulaire d'inscription plus à droite que celui de connexion*/
-#form_inscription {
-    padding: 25px 400px 25px 400px;
+#form_inscription, #form_contact {
+    padding: 25px 300px 25px 300px;
 }
 
 #form_connexion {
     padding: 10px 25px 10px 25px;
 }
 
-form h2, #infos_inscription, #connexion, #inscrivez_vous, #premiere_visite {
+form h2, #infos_inscription, #infos_contact, #connexion, #inscrivez_vous, #premiere_visite {
 	text-align: center;
 }
 
 /*Change la couleur des cases (en gris) et bordures*/
-#connexion input, #infos_inscription input {
+#connexion input, #infos_inscription input, #infos_contact input {
 	background-color: #AFAFAF;
 	border-radius: 3px;
     border: #AFAFAF 2px solid;
@@ -121,71 +119,94 @@ form h2, #infos_inscription, #connexion, #inscrivez_vous, #premiere_visite {
     font-family: roboto;
 }
 
-::placeholder:hover {
-	color: #AFAFAF;
-    font-family: roboto;
-}
 /*Change la couleur des cases (en blanc) quand on les survole ou qu'on clique dessus*/
-#connexion input:hover, #infos_inscription input:hover, #connexion input:focus, #infos_inscription input:focus {
+#connexion input:hover, #infos_inscription input:hover, #infos_contact input:hover, #connexion input:focus, #infos_inscription input:focus, #infos_contact input:focus {
 	background-color: white;
-    color: #AFAFAF;
 }
 
 /*Pour changer les effets des liens inclus dans les cgu*/
 .liens {
-	color: black;
+	
+    color: #AA00FF;
+    transition: 0.2s ease-in-out;
 }
 .liens:hover {
 	text-decoration: none;
 	font-weight: bold;
-	font-size: 0.95em;
 }
 
 
-#bouton_inscription, #bouton_connexion {
+#bouton_inscription, #bouton_connexion, #bouton_contact {
 	text-align: right;
-    margin-right: 25px;
+    margin-right: 0px;
 }
 /*Change la couleur des boutons*/
-#bouton_inscription input, #bouton_connexion input {
+#bouton_inscription input, #bouton_contact input, #bouton_connexion input {
 	background-color: #AA00FF;
-	border-radius: 5px;
+	border-radius: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: #AA00FF 2px solid;
+    transition: 0.2s ease-in-out;
+    font-size: 17px;
 }
 #inscrivez_vous input {
 	background-color: white;
 	border-radius: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: #AA00FF 2px solid;
+    transition: 0.2s ease-in-out;
+    font-size: 17px;
 }
 /*Inverse les couleurs des boutons quand on les survole*/
-#bouton_inscription input:hover, #bouton_connexion input:hover {
+#bouton_inscription input:hover, #bouton_contact input:hover, #bouton_connexion input:hover {
 	background-color: white;
-	border-radius: 5px;
+	border-radius: 4px;
 }
 #inscrivez_vous input:hover {
 	background-color: #AA00FF;
 	border-radius: 5px;
 }
-/*Change la couleur du texte des boutons*/
-#bouton_inscription input:valid, #bouton_connexion input:valid {
+/*Change la couleur et la police du texte des boutons*/
+#bouton_inscription input:valid, #bouton_contact input:valid, #bouton_connexion input:valid {
 	color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 #inscrivez_vous input:valid {
-	font-weight: bold;
+    font-family: 'Poppins', sans-serif;
 	color: #AA00FF;
+    font-weight: 600;
 }
 /*Inverse les couleurs des boutons quand on les survole*/
-#bouton_inscription input:valid:hover, #bouton_connexion input:valid:hover {
-	color: #AA00FF;
+#bouton_inscription input:valid:hover, #bouton_contact input:valid:hover, #bouton_connexion input:valid:hover {
+	color: black;
 }
 #inscrivez_vous input:valid:hover {
-	font-weight: bold;
 	color: white;
 }
 
 h3{
     font-size: 35px;
     font-family: 'Poppins', sans-serif;
+    margin: 0px 0px 10px 0px ;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
     margin: 0px 0px 0px 0px ;
     font-weight: 600;
+}
+
+p{
+    font-family: Roboto;
+    font-size: 17px;
+}
+span{
+    color: #AA00FF;
 }
 
 .colGauche, .colDroite{
@@ -218,4 +239,42 @@ footer{
 
 footer li a{
     font-size: 15px;
+}
+
+/* FAQ */
+
+#faq {
+    background-color: white;
+    margin: 50px 15px 50px 15px ;
+    padding: 25px 75px 25px 75px;
+    border-radius: 10px;
+}
+
+.question{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.reponse{
+    text-align: left;
+    margin-top: 0px;
+}
+
+/* Contact */
+
+textarea{
+    background-color: #AFAFAF;
+    font-family: Roboto;
+    height: 50px;
+    resize: vertical;
+    border-radius: 3px;
+    border: #AFAFAF 2px solid;
+    transition: 0.2s ease-in-out;   
+}
+
+textarea:hover{
+    background-color: white;
 }

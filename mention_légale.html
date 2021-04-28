@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8"/>
-    <title>Mention Légale NeuroConnect</title>
-    <link rel="stylesheet" href="mention_légale.css" type="text/css">
+    <title>NeuroConnect - CGU</title>
+    <link rel="stylesheet" href="style_connexion_faq.css" type="text/css">
     <link rel="icon" href="Images/LogoV2.png">
 </head>
 
@@ -11,87 +11,101 @@
     <header>
         <div id="imageLogo">
             <img id="logo" src="Images/LogoV2.png" alt="Logo Neurofocuz">
-            <h1>NeuroConnect</h1>
+            <h1>NEUROCONNECT</h1>
         </div>
 
-        <div id = navigation>
+        <div id=navigation>
             <ul>
                 <li><a href="index.html">ACCUEIL</a></li>
                 <li><a href="faq.html">AIDE</a></li>
-                <li><a href="">CONTACT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
                 <li><a href="">TEST</a></li>
             </ul>
         </div>
     </header>
 
-    <form action="" method="post" id="form_connexion">
-            <h2>Espace membre</h2>
-            <p>Déjà membre?</p>
-            <div id="connexion">
-                <p><input type="text" name="e-mail" size="25" placeholder="e-mail" required autofocus></p>
-                <p><input type="text" name="mot de passe" size="25" placeholder="Mot de passe" required></p>
-            </div>
-            <p id="bouton_connexion">
-                <input type="submit" value="Connexion">
-            </p>
-            <p id="premiere_visite">C'est votre première visite?</p>
-            <p id="inscrivez_vous">
-                <input type="submit" value="Inscrivez-vous">
-            </p>
-    </form>
-    
-    <form action="" method="post" id="form_mentionlegale">
-        <h3>MENTIONS LÉGALES</h3>
-            <div id="infos_mentionlegale">
-            <div class="container">
-            <div class="accordion">
-
-                    <p>
-                        Conformément aux dispositions des Articles 6-III et 19 de la Loi n°2004-575 du 21 juin 2004 pour la Confiance dans l’économie numérique, dite L.C.E.N., il est porté à la connaissance des Utilisateurs du site neuroconnect.fr les présentes mentions légales.<br>
-                        La connexion et la navigation sur le site (indiquer le nom du site) par l’Utilisateur implique acceptation intégrale et sans réserve des présentes mentions légales.
-                        Ces dernières sont accessibles sur le site à la rubrique « Mentions légales ».<br>
-                        
-                        <h4>ARTICLE 1 : L’éditeur</h4><br>
-                        L’édition et la direction de la publication du site neuroconnect.fr est assurée par Desrues Benjamin, domiciliée 18 Résidence Beausoleil, dont le numéro de téléphone est 0786419345, et l'adresse e-mail bede60337@eleve.isep.fr.<br>
-
-                        <h4>ARTICLE 2 : L’hébergeur</h4><br>
-                        L'hébergeur du site neuroconnect.fr est la Société Neurofocuz, dont le siège social est situé au SARL , avec le numéro de téléphone : 0786419345.<br>
-
-                        <h4>ARTICLE 3 : Accès au site</h4><br>
-                        Le site est accessible par tout endroit, 7j/7, 24h/24 sauf cas de force majeure, interruption programmée ou non et pouvant découlant d’une nécessité de maintenance.<br>
-                        En cas de modification, interruption ou suspension des services le site neuroconnect.fr ne saurait être tenu responsable.<br>
-
-                        <h4>ARTICLE 4 : Collecte des données</h4><br>
-                        Le site assure à l'Utilisateur une collecte et un traitement d'informations personnelles dans le respect de la vie privée conformément à la loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés. Le site est déclaré à la CNIL<br>
-                        En vertu de la loi Informatique et Libertés, en date du 6 janvier 1978, l'Utilisateur dispose d'un droit d'accès, de rectification, de suppression et d'opposition de ses données personnelles. L'Utilisateur exerce ce droit :
-                        par mail à l'adresse email neurofocuz@gmail.com<br>
-
-                        <h4>ARTICLE 5 : Cookies</h4><br>
-                        L’Utilisateur est informé que lors de ses visites sur le site, un cookie peut s’installer automatiquement sur son logiciel de navigation.
-                        En naviguant sur le site, il les accepte.<br>
-                        Un cookie est un élément qui ne permet pas d’identifier l’Utilisateur mais sert à enregistrer des informations relatives à la navigation de celui-ci sur le site Internet. <br>L’Utilisateur pourra désactiver ce cookie par l’intermédiaire des paramètres figurant au sein de son logiciel de navigation.<br>
-
-                        <h4>ARTICLE 6 : Propriété intellectuelle</h4><br>
-                        Toute utilisation, reproduction, diffusion, commercialisation, modification de toute ou partie du site neuroconnect.fr, sans autorisation de l’Editeur est prohibée et pourra entraînée des actions et poursuites judiciaires telles que notamment prévues par le Code de la propriété intellectuelle et le Code civil.<br>
-                        Pour plus d’informations, se reporter aux CGU du site neuroconnect.fr accessible à la rubrique« CGU »
-
-
-                    </p>
+    <div class=content>
+        <div class="colGauche">
+            <form action="" method="post" id="form_connexion">
+                <h2>Espace membre</h2>
+                <p>Déjà membre?</p>
+                <div id="connexion">
+                    <p><input type="text" name="e-mail" size="25" placeholder="e-mail" required autofocus></p>
+                    <p><input type="text" name="mot de passe" size="25" placeholder="Mot de passe" required></p>
                 </div>
-            </div>
+                <p id="bouton_connexion">
+                    <input type="submit" value="Connexion">
+                </p>
+                <p id="premiere_visite">C'est votre première visite?</p>
+                <p id="inscrivez_vous">
+                    <input type="submit" value="Inscrivez-vous">
+                </p>
+            </form>
+        </div>
+        <div class="colMilieu">
+            <div id="faq">
+                <h3>Mentions <span>légales</span></h3>
+                <p class="reponse">Conformément aux dispositions des Articles 6-III et 19 de la Loi n°2004-575 du 21
+                    juin 2004 pour la Confiance dans l’économie numérique, dite L.C.E.N., il est porté à la connaissance
+                    des Utilisateurs du site neuroconnect.fr les présentes mentions légales.<br>
+                    La connexion et la navigation sur le site (indiquer le nom du site) par l’Utilisateur implique
+                    acceptation intégrale et sans réserve des présentes mentions légales.
+                    Ces dernières sont accessibles sur le site à la rubrique « Mentions légales ».
+                </p>
+                <p class="question">Article 1 : l'éditeur</p>
+                <p class="reponse"> L’édition et la direction de la publication du site neuroconnect.fr est assurée par
+                    Desrues Benjamin, domiciliée 18 Résidence Beausoleil, dont le numéro de téléphone est 0786419345, et
+                    l'adresse e-mail bede60337@eleve.isep.fr.
+                </p>
+                <p class="question">Article 2 : l'hébergeur</p>
+                <p class="reponse">L'hébergeur du site neuroconnect.fr est la Société Neurofocuz, dont le siège social
+                    est situé au SARL , avec le numéro de téléphone : 0786419345.
+                </p>
 
-     
-    </form>
+                <p class="question">Article 3 : accès au site</p>
+                <p class="reponse"> Le site est accessible par tout endroit, 7j/7, 24h/24 sauf cas de force majeure,
+                    interruption programmée ou non et pouvant découlant d’une nécessité de maintenance.
+                    En cas de modification, interruption ou suspension des services le site neuroconnect.fr ne saurait
+                    être tenu responsable.</p>
+                <p class="question">Article 4 : collecte des données</p>
+                <p class="reponse"> Le site assure à l'Utilisateur une collecte et un traitement d'informations
+                    personnelles dans le respect de la vie privée conformément à la loi n°78-17 du 6 janvier 1978
+                    relative à l'informatique, aux fichiers et aux libertés. Le site est déclaré à la CNIL. En vertu de
+                    la loi Informatique et Libertés, en date du 6 janvier 1978, l'Utilisateur dispose d'un droit
+                    d'accès, de rectification, de suppression et d'opposition de ses données personnelles. L'Utilisateur
+                    exerce ce droit :
+                    par mail à l'adresse email neurofocuz@gmail.com</p>
+                <p class="question">Article 5 : cookies</p>
+                <p class="reponse"> L’Utilisateur est informé que lors de ses visites sur le site, un cookie peut
+                    s’installer automatiquement sur son logiciel de navigation.
+                    En naviguant sur le site, il les accepte.
+                    Un cookie est un élément qui ne permet pas d’identifier l’Utilisateur mais sert à enregistrer des
+                    informations relatives à la navigation de celui-ci sur le site Internet. L’Utilisateur pourra
+                    désactiver ce cookie par l’intermédiaire des paramètres figurant au sein de son logiciel de
+                    navigation.
+                </p>
+                <p class="question">Article 6 : propriété intellectuelle</p>
+                <p class="reponse"> Toute utilisation, reproduction, diffusion, commercialisation, modification de toute
+                    ou partie du site neuroconnect.fr, sans autorisation de l’Editeur est prohibée et pourra entraînée
+                    des actions et poursuites judiciaires telles que notamment prévues par le Code de la propriété
+                    intellectuelle et le Code civil.
+                    Pour plus d’informations, se reporter aux CGU du site neuroconnect.fr accessible à la rubrique« CGU
+                    »</p>
+            </div>
+        </div>
+        <div class="colDroite">
+        </div>
+
+    </div>
 
     <footer>
-        <div id = textFooter>
+        <div id=textFooter>
             <ul>
                 <li><a href="mention_légale.html">Mentions légales</a></li>
                 <li><a href="">Conditions d'utilisation</a></li>
             </ul>
         </div>
     </footer>
-    
-    </body>
+</body>
 
 </html>

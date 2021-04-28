@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>NeuroConnect - Inscription</title>
+	<title>NeuroConnect - Contact</title>
 	<link rel="stylesheet" href="style_connexion_faq.css" type="text/css">
 	<link rel="icon" href="Images/LogoV2.png">
 </head>
@@ -43,27 +43,17 @@
 			</form>
 		</div>
 		<div class="colMilieu">
-			<form action="" method="post" id="form_inscription">
-				<h3>S'<span>inscrire</span></h3>
-				<div id="infos_inscription">
+			<form action="" method="post" id="form_contact">
+				<h3>Nous <span>contacter</span></h3>
+				<div id="infos_contact">
 					<p><input type="text" name="Prénom" size="35" placeholder="Votre Prénom" required></p>
 					<p><input type="text" name="Nom" size="35" placeholder="Votre Nom" required></p>
 					<p><input type="text" name="E-mail" size="35" placeholder="Votre adresse e-mail" required></p>
-					<p><input type="text" name="Mot de passe" size="35" placeholder="Votre mot de passe" required></p>
-					<p><input type="text" name="Confirmation" size="35" placeholder="Confirmez le mot de passe"
-							required></p>
-					<p><input type="text" name="Admin/Gestionnaire" size="35"
-							placeholder="Code admin/gestionnaire (facultatif)"></p>
-				</div>
-				<div id="cgu">
+					<textarea name="Message" cols="37" placeholder="Votre message" required></textarea>
+				</div>	
+				<div id="bouton_contact">
 					<p>
-						<input type="checkbox" name="CGU">
-						<label for="accepter">J'accepte les <a href="mention_légale.html" class="liens">CGU</a> du site.</label>
-					</p>
-				</div>
-				<div id="bouton_inscription">
-					<p>
-						<input type="submit" value="S'inscrire">
+						<input type="submit" value="Envoyer">
 					</p>
 				</div>
 			</form>
