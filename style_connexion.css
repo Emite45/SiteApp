@@ -88,42 +88,49 @@ li a:hover{
 form {
 	padding: 10px;
 	margin-top: 100px;
-	position: fixed;
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: 15px;
+	margin-right: 15px;
 	background-color: rgb(255,255,255);
 	border-radius: 10px;
 }
 /*Pour mettre le formulaire d'inscription plus à droite que celui de connexion*/
 #form_inscription {
-	margin-left: 400px;
-    padding: 25px 100px 25px 100px;
+    padding: 25px 400px 25px 400px;
 }
+
+#form_connexion {
+    padding: 10px 25px 10px 25px;
+}
+
 form h2, #infos_inscription, #connexion, #inscrivez_vous, #premiere_visite {
 	text-align: center;
 }
 
 /*Change la couleur des cases (en gris) et bordures*/
 #connexion input, #infos_inscription input {
-	background-color: #808080;
-	border-radius: 4px;
+	background-color: #AFAFAF;
+	border-radius: 3px;
+    border: #AFAFAF 2px solid;
+    appearance: none;
+    height: 20px;
+    transition: 0.2s ease-in-out;
 }
 /*Change la couleur du texte inscrit dans les cases (en gris clair)*/
 ::placeholder {
-	color: #a6a6a6;
+	color: #E2E2E2;
+    font-family: roboto;
+}
+
+::placeholder:hover {
+	color: #AFAFAF;
+    font-family: roboto;
 }
 /*Change la couleur des cases (en blanc) quand on les survole ou qu'on clique dessus*/
 #connexion input:hover, #infos_inscription input:hover, #connexion input:focus, #infos_inscription input:focus {
 	background-color: white;
+    color: #AFAFAF;
 }
 
-/*Pour mieux aligner les cgu*/
-#cgu {
-	width: 50%;
-	margin-left: 210px;
-	word-wrap: break-word;
-	padding-left: 20px;
-}
 /*Pour changer les effets des liens inclus dans les cgu*/
 .liens {
 	color: black;
@@ -137,6 +144,7 @@ form h2, #infos_inscription, #connexion, #inscrivez_vous, #premiere_visite {
 
 #bouton_inscription, #bouton_connexion {
 	text-align: right;
+    margin-right: 25px;
 }
 /*Change la couleur des boutons*/
 #bouton_inscription input, #bouton_connexion input {
@@ -180,6 +188,17 @@ h3{
     font-weight: 600;
 }
 
+.colGauche, .colDroite{
+    width: 18%;
+    height: 100%;
+    float: left;
+}
+
+.colMilieu{
+    width: 64%;
+    float: left;
+    text-align: center;
+}
 
 
 

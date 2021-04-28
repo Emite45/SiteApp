@@ -1,61 +1,83 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>NeuroConnect</title>
-        <link rel="stylesheet" href="style.css" type="text/css">
-        <link rel="icon" href="Images/LogoV2.png">
-    </head>
-   
-    <body>
-       <header>
-           <div id="imageLogo">
+
+<head>
+    <title>NeuroConnect</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="icon" href="Images/LogoV2.png">
+</head>
+
+<body>
+    <header>
+        <div id="imageLogo">
             <img id="logo" src="/Images/LogoV2.png" alt="Logo Neurofocuz">
             <h1>NEUROCONNECT</h1>
-           </div>
-        
-           <div id = navigation>
+        </div>
+
+        <div id=navigation>
             <ul>
-                <li><a href="">ACCUEIL</a></li>
-                <li><a href="">AIDE</a></li>
+                <li><a href="index.html">ACCUEIL</a></li>
+                <li><a href="faq.html">AIDE</a></li>
                 <li><a href="">CONTACT</a></li>
                 <li><a href="">TEST</a></li>
             </ul>
-           </div>
-       </header>
-
-       <div class = content>
-           <div class="colGauche">
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel tristique dolor, eget iaculis erat. Ut sagittis auctor tellus ut sodales. Maecenas volutpat justo neque, quis dapibus sapien finibus non. Suspendisse potenti. Donec sollicitudin lacus eget magna tempor vestibulum. Aliquam a ipsum nulla. Curabitur luctus turpis ac magna varius, non varius dolor dapibus. Duis semper mattis dolor, at maximus tortor efficitur at. Duis dapibus elit id faucibus accumsan. Quisque sit amet auctor purus, quis ultrices ipsum. Fusce in pulvinar lectus. Integer quis ullamcorper lorem, ac sagittis nunc. Aliquam congue venenatis urna, quis tempus odio sodales vitae. Aliquam eleifend in velit a vestibulum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas dignissim libero non est vehicula, ac sodales purus porttitor.</p>
-
-           </div>
-           <div class="colMilieu">
-               <div id="Intro">
-                    <h3>Prêts pour <span class="action">l'action</span></h3>
-                    <p>Des systèmes de tests psychotechniques à la <br>pointe de la technologie pour le recrutement des<br> services de secours et de maintien de l'ordre</p>
-                    <a href="#infos" class="button">En savoir plus</a>
-               </div>
-
-               <div id="infos">
-                   <h3> Qui sommes nous ?</h3>
-                   <p>Neurofocuz est une jeune startup parisienne, spécialisée dans la réalisation de tests psychotechniques à destination des centres de recrutement des sapeurs-pompiers, des forces armées et des forces de l'ordre.</p>
-                   <p>Fondée en 2020, notre entreprise comporte 5 collaborateurs, déterminés à vous proposer les meilleures solutions techniques disponibles sur le marché.</p>
-                   <p>Grace à notre plateforme NeuroConnect, vous pouvez aisément gérer les résultats de tests des candidats testés, mais ces derniers peuvent également les consulter afin d'immédiatement voir les points sur lesquels ils peuvent s'améliorer.</p>
-                   <p>Si vous souhaitez en apprendre plus sur nos produits et services, ou obtenir des informations sur la réalisation d'un système sur mesure, n'hésitez pas à <a href="">nous contacter</a>.</p>
-               </div>
-
-            
         </div>
-        <div class="colDroite">
-        </div>
-       </div>
+    </header>
 
-       <footer>
-        <div id = textFooter>
+    <div class=content>
+    <div class="colGauche">
+        <form action="" method="post" id="form_connexion">
+            <h2>Espace membre</h2>
+            <p>Déjà membre?</p>
+            <div id="connexion">
+                <p><input type="text" name="e-mail" size="25" placeholder="e-mail" required autofocus></p>
+                <p><input type="text" name="mot de passe" size="25" placeholder="Mot de passe" required></p>
+            </div>
+            <p id="bouton_connexion">
+                <input type="submit" value="Connexion">
+            </p>
+            <p id="premiere_visite">C'est votre première visite?</p>
+            <p id="inscrivez_vous">
+                <input type="submit" value="Inscrivez-vous">
+            </p>
+        </form>
+
+    </div>
+    <div class="colMilieu">
+        <div id="Intro">
+            <h3>Prêts pour <span class="action">l'action</span></h3>
+            <p>Des systèmes de tests psychotechniques à la <br>pointe de la technologie pour le recrutement des<br>
+                services de secours et de maintien de l'ordre</p>
+            <a href="#infos" class="button">En savoir plus</a>
+        </div>
+
+        <div id="infos">
+            <h3> Qui sommes nous ?</h3>
+            <p>Neurofocuz est une jeune startup parisienne, spécialisée dans la réalisation de tests psychotechniques à
+                destination des centres de recrutement des sapeurs-pompiers, des forces armées et des forces de l'ordre.
+            </p>
+            <p>Fondée en 2020, notre entreprise comporte 5 collaborateurs, déterminés à vous proposer les meilleures
+                solutions techniques disponibles sur le marché.</p>
+            <p>Grace à notre plateforme NeuroConnect, vous pouvez aisément gérer les résultats de tests des candidats
+                testés, mais ces derniers peuvent également les consulter afin d'immédiatement voir les points sur
+                lesquels ils peuvent s'améliorer.</p>
+            <p>Si vous souhaitez en apprendre plus sur nos produits et services, ou obtenir des informations sur la
+                réalisation d'un système sur mesure, n'hésitez pas à <a href="">nous contacter</a>.</p>
+        </div>
+    </div>
+    <div class="colDroite">
+    </div>
+
+    </div>
+
+    <footer>
+        <div id=textFooter>
             <ul>
-                <li><a href="">Mentions légales</a></li>
+                <li><a href="mention_légale.html">Mentions légales</a></li>
                 <li><a href="">Conditions d'utilisation</a></li>
             </ul>
-           </div>
-       </footer>
-    </body>
+        </div>
+    </footer>
+</body>
+
 </html>

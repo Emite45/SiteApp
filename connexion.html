@@ -1,74 +1,86 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>NeuroConnect</title>
-    <link rel="stylesheet" href="style_connexion.css" type="text/css">
-    <link rel="icon" href="Images/LogoV2.png">
+	<link rel="stylesheet" href="style_connexion.css" type="text/css">
+	<link rel="icon" href="Images/LogoV2.png">
 </head>
 
 <body>
 	<header>
 		<div id="imageLogo">
-	    	<img id="logo" src="Images/LogoV2.png" alt="Logo Neurofocuz">
-	    	<h1>NEUROCONNECT</h1>
-	    </div>
+			<img id="logo" src="Images/LogoV2.png" alt="Logo Neurofocuz">
+			<h1>NEUROCONNECT</h1>
+		</div>
 
-	    <div id = navigation>
-	    	<ul>
-	        	<li><a href="index.html">ACCUEIL</a></li>
-	        	<li><a href="">AIDE</a></li>
-	        	<li><a href="">CONTACT</a></li>
-	        	<li><a href="">TEST</a></li>
-	    	</ul>
-	    </div>
-    </header>
+		<div id=navigation>
+			<ul>
+				<li><a href="index.html">ACCUEIL</a></li>
+				<li><a href="faq.html">AIDE</a></li>
+				<li><a href="">CONTACT</a></li>
+				<li><a href="">TEST</a></li>
+			</ul>
+		</div>
+	</header>
 
-    <form action="" method="post" id="form_connexion">
-    		<h2>Espace membre</h2>
-    		<p>Déjà membre?</p>
-    		<div id="connexion">
-    			<p><input type="text" name="e-mail" size="25" placeholder="e-mail" required autofocus></p>
-    			<p><input type="text" name="mot de passe" size="25" placeholder="Mot de passe" required></p>
-    		</div>
-    		<p id="bouton_connexion">
-    			<input type="submit" value="Connexion">
-    		</p>
-    		<p id="premiere_visite">C'est votre première visite?</p>
-    		<p id="inscrivez_vous">
-    			<input type="submit" value="Inscrivez-vous">
-    		</p>
-    </form>
+	<div class=content>
+		<div class="colGauche">
+			<form action="" method="post" id="form_connexion">
+				<h2>Espace membre</h2>
+				<p>Déjà membre?</p>
+				<div id="connexion">
+					<p><input type="text" name="e-mail" size="25" placeholder="e-mail" required autofocus></p>
+					<p><input type="text" name="mot de passe" size="25" placeholder="Mot de passe" required></p>
+				</div>
+				<p id="bouton_connexion">
+					<input type="submit" value="Connexion">
+				</p>
+				<p id="premiere_visite">C'est votre première visite?</p>
+				<p id="inscrivez_vous">
+					<input type="submit" value="Inscrivez-vous">
+				</p>
+			</form>
+		</div>
+		<div class="colMilieu">
+			<form action="" method="post" id="form_inscription">
+				<h3>S'<span>inscrire</span></h3>
+				<div id="infos_inscription">
+					<p><input type="text" name="Prénom" size="35" placeholder="Votre Prénom" required></p>
+					<p><input type="text" name="Nom" size="35" placeholder="Votre Nom" required></p>
+					<p><input type="text" name="E-mail" size="35" placeholder="Votre adresse e-mail" required></p>
+					<p><input type="text" name="Mot de passe" size="35" placeholder="Votre mot de passe" required></p>
+					<p><input type="text" name="Confirmation" size="35" placeholder="Confirmez le mot de passe"
+							required></p>
+					<p><input type="text" name="Admin/Gestionnaire" size="35"
+							placeholder="Code admin/gestionnaire (facultatif)"></p>
+				</div>
+				<div id="cgu">
+					<p>
+						<input type="checkbox" name="CGU">
+						<label for="accepter">J'accepte les <a href="mention_légale.html" class="liens">CGU</a> du site.</label>
+					</p>
+				</div>
+				<div id="bouton_inscription">
+					<p>
+						<input type="submit" value="S'inscrire">
+					</p>
+				</div>
+			</form>
+		</div>
+		<div class="colDroite">
+		</div>
 
-    <form action="" method="post" id="form_inscription">
-    	<h3>S'inscrire</h3>
-    		<div id="infos_inscription">
-	    		<p><input type="text" name="Prénom" size="35" placeholder="Votre Prénom" required></p>
-	    		<p><input type="text" name="Nom" size="35" placeholder="Votre Nom" required></p>
-	    		<p><input type="text" name="E-mail" size="35" placeholder="Votre adresse e-mail" required></p>
-	    		<p><input type="text" name="Mot de passe" size="35" placeholder="Votre mot de passe" required></p>
-	    		<p><input type="text" name="Confirmation" size="35" placeholder="Confirmez le mot de passe" required></p>
-	    		<p><input type="text" name="Admin/Gestionnaire" size="35" placeholder="Code admin/gestionnaire (facultatif)"></p>
-	    	</div>
-	    	<div id="cgu">
-	    		<p>
-	    			<input type="checkbox" name="CGU">
-	    			<label for="accepter">J'accepte les <a href="" class="liens">conditions générales d'utilisation</a> et la <a href="" class="liens">politique de données<a/> du site.</label>
-	    		</p>
-	    	</div>
-	    	<div id="bouton_inscription">
-	    		<p>
-	    			<input type="submit" value="S'inscrire">
-	    		</p>
-    		</div>
-    </form>
+	</div>
 
-    <footer>
-        <div id = textFooter>
-        	<ul>
-            	<li><a href="">Mentions légales</a></li>
-            	<li><a href="">Conditions d'utilisation</a></li>
-        	</ul>
-        </div>
-    </footer>
+	<footer>
+		<div id=textFooter>
+			<ul>
+				<li><a href="mention_légale.html">Mentions légales</a></li>
+				<li><a href="">Conditions d'utilisation</a></li>
+			</ul>
+		</div>
+	</footer>
 </body>
+
 </html>
