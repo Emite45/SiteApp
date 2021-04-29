@@ -5,7 +5,7 @@
     src: url(/Fonts/LEIXO-DEMO.ttf);
     }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body{
     margin: 0px;
     background-color: #E1E1E1;
@@ -194,7 +194,7 @@ form h2, #connexion, #inscrivez_vous, #premiere_visite {
 /*Change la couleur du texte inscrit dans les cases (en gris clair)*/
 ::placeholder {
 	color: #E2E2E2;
-    font-family: roboto;
+    font-family: Roboto;
 }
 
 /*Change la couleur des cases (en blanc) quand on les survole ou qu'on clique dessus*/
