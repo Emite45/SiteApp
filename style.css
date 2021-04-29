@@ -68,7 +68,7 @@ li a{
     padding-right: 10px;
     padding-bottom: 1px;
     color: black;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: bold;
     border-bottom: 3px solid white;
 }
@@ -130,7 +130,7 @@ h3{
 }
 
 p{
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 17px;
 }
 
@@ -194,7 +194,7 @@ form h2, #connexion, #inscrivez_vous, #premiere_visite {
 /*Change la couleur du texte inscrit dans les cases (en gris clair)*/
 ::placeholder {
 	color: #E2E2E2;
-    font-family: Roboto;
+    font-family: 'Roboto';
 }
 
 /*Change la couleur des cases (en blanc) quand on les survole ou qu'on clique dessus*/

@@ -66,7 +66,7 @@ li a{
     padding-right: 10px;
     padding-bottom: 1px;
     color: black;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: bold;
     border-bottom: 3px solid white;
 }
@@ -116,7 +116,7 @@ form h2, #infos_inscription, #infos_contact, #connexion, #inscrivez_vous, #premi
 /*Change la couleur du texte inscrit dans les cases (en gris clair)*/
 ::placeholder {
 	color: #E2E2E2;
-    font-family: Roboto;
+    font-family: 'Roboto';
 }
 
 /*Change la couleur des cases (en blanc) quand on les survole ou qu'on clique dessus*/
@@ -202,7 +202,7 @@ h2{
 }
 
 p{
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-size: 17px;
 }
 span{
@@ -267,7 +267,7 @@ footer li a{
 
 textarea{
     background-color: #AFAFAF;
-    font-family: Roboto;
+    font-family: 'Roboto';
     height: 50px;
     resize: vertical;
     border-radius: 3px;
