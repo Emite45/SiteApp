@@ -100,7 +100,7 @@ form {
     padding: 10px 20px 10px 20px;
 }
 
-form h2, #infos_inscription, #infos_contact, #connexion, #inscrivez_vous, #premiere_visite {
+form h2, #infos_inscription, #infos_contact, #connexion, #inscrivez_vous, #premiere_visite, #se_deconnecter {
 	text-align: center;
 }
 
@@ -150,7 +150,7 @@ form h2, #infos_inscription, #infos_contact, #connexion, #inscrivez_vous, #premi
     transition: 0.2s ease-in-out;
     font-size: 17px;
 }
-#inscrivez_vous input {
+#inscrivez_vous input, #se_deconnecter input {
 	background-color: white;
 	border-radius: 5px;
     padding-top: 2px;
@@ -164,7 +164,7 @@ form h2, #infos_inscription, #infos_contact, #connexion, #inscrivez_vous, #premi
 	background-color: white;
 	border-radius: 4px;
 }
-#inscrivez_vous input:hover {
+#inscrivez_vous input:hover, #se_deconnecter input:hover {
 	background-color: #AA00FF;
 	border-radius: 5px;
 }
@@ -174,7 +174,7 @@ form h2, #infos_inscription, #infos_contact, #connexion, #inscrivez_vous, #premi
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
-#inscrivez_vous input:valid {
+#inscrivez_vous input:valid, #se_deconnecter input:valid {
     font-family: 'Poppins', sans-serif;
 	color: #AA00FF;
     font-weight: 600;
@@ -183,7 +183,7 @@ form h2, #infos_inscription, #infos_contact, #connexion, #inscrivez_vous, #premi
 #bouton_inscription input:valid:hover, #bouton_contact input:valid:hover, #bouton_connexion input:valid:hover {
 	color: black;
 }
-#inscrivez_vous input:valid:hover {
+#inscrivez_vous input:valid:hover, #se_deconnecter input:valid:hover {
 	color: white;
 }
 
@@ -277,4 +277,19 @@ textarea{
 
 textarea:hover{
     background-color: white;
+}
+
+/* Espace Perso */
+
+td, table {
+    border: black 1px solid;
+}
+
+td{
+    padding: 5px;
+}
+
+#prenom{
+    font-size: 18px;
+    color: #AA00FF;
 }

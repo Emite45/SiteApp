@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>NeuroConnect - Espace perso</title>
+    <link rel="stylesheet" href="style_connexion_faq.css" type="text/css">
+    <link rel="icon" href="Images/LogoV2.png">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <header>
+        <div id="imageLogo">
+            <img id="logo" src="Images/LogoV2.png" alt="Logo Neurofocuz">
+            <h1>NEUROCONNECT</h1>
+        </div>
+
+        <div id=navigation>
+            <ul>
+                <li><a href="index.html">ACCUEIL</a></li>
+                <li><a href="faq.html">AIDE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="">TEST</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class=content>
+        <div class="colGauche">
+            <form action="" method="post" id="form_connexion">
+                <h2>Espace membre</h2>
+                <p>Bienvenue,</p>
+                <p id="prenom">Insérer Prénom</p>
+                <p id="se_deconnecter">
+                    <input type="submit" value="Se déconnecter">
+                </p>
+            </form>
+        </div>
+        <div class="colMilieu">
+            <form action="" method="post" id="form_inscription">
+                <h3>Votre <span>compte</span></h3>
+                <p class="question">Modifier vos infos :</p>
+                <div id="infos_inscription">
+                    <p><input type="text" name="Prénom" size="35" placeholder="Changer Prénom" required></p>
+                    <p><input type="text" name="Nom" size="35" placeholder="Changer Nom" required></p>
+                    <p><input type="text" name="E-mail" size="35" placeholder="nouvelle adresse e-mail" required></p>
+                    <p><input type="text" name="Mot de passe" size="35" placeholder="nouveau mot de passe" required></p>
+                    <p><input type="text" name="Confirmation" size="35" placeholder="Confirmez le nouveau mot de passe"
+                            required></p>
+                </div>
+                <div id="bouton_inscription">
+                    <p>
+                        <input type="submit" value="Enregistrer">
+                    </p>
+                </div>
+            </form>
+
+            <div id="faq">
+                <h3>Vos <span>résultats</span></h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Type de test</td>
+                            <td>Date du test</td>
+                            <td>Heure du test</td>
+                            <td>Résultat</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>insérer type</td>
+                            <td>Insérer date</td>
+                            <td>Insérer heure</td>
+                            <td>Insérer Résultat</td>
+                        </tr>
+                        <tr>
+                            <td>insérer type</td>
+                            <td>Insérer date</td>
+                            <td>Insérer heure</td>
+                            <td>Insérer Résultat</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+
+                <p class="question">Votre progression :</p>
+                <img src="/Images/graphique.jpg" alt="">
+            </div>
+
+        </div>
+        <div class="colDroite">
+        </div>
+
+    </div>
+
+    <footer>
+        <div id=textFooter>
+            <ul>
+                <li><a href="mention_légale.html">Mentions légales</a></li>
+                <li><a href="">Conditions d'utilisation</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
